@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dc2b44523493348927fd8c68be4e37, type: 3}
+  m_Name: SwapState
+  m_EditorClassIdentifier: 
+  gunIkTarget:
+    leftWristGunIk: 2
+    rightWristGunIk: 1
+    anchorPoint: 0
+    priority: 10
+  EnterActions:
+  - {fileID: 11400000, guid: c8da65b78ee6fa54cb07035c1aa98dbf, type: 2}
+  UpdateActions:
+  - {fileID: 11400000, guid: 4ac50cb277060344c81517913cf8016a, type: 2}
+  ExitActions:
+  - {fileID: 11400000, guid: ee4cfc9b9c585054dba3ab380edb6baf, type: 2}
+  Transitions:
+  - {fileID: 11400000, guid: 9a5b8f484056a0e4daeefc88e35230e9, type: 2}

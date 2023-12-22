@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3335770729212719399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2300913591816436124, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Standalone Sentry Grow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765718792917382468, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4013877063481058349, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 3696
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: aimSpeed
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: aimDegree
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8364714770656483978, guid: 0d21f28109b566c478798e9bf36693f5,
+        type: 3}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: fireSoundPath
+      value: event:/SFX/Enemy/Weapon/Gun/Play_Enemy_Weapon_Gun_Grow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: clearShotRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057857508916710537, guid: fdf06aa8626dc5a4dbe80b03f55a03bb,
+        type: 3}
+      propertyPath: fireRatePerMinute
+      value: 45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fdf06aa8626dc5a4dbe80b03f55a03bb, type: 3}
