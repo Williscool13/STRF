@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c5f8c1fd638c64f971d7320c0ecb56, type: 3}
+  m_Name: SwapEnter
+  m_EditorClassIdentifier: 
+  animBasedSwapTime: 0
+  isSwapping: {fileID: 11400000, guid: ae77a0250b482604f9e108f41b328830, type: 2}
+  transformSwapTimeleft: {fileID: 11400000, guid: ca164cdd57efac2459e9edfc197186d1,
+    type: 2}
+  swapTimeLeft: {fileID: 11400000, guid: 7736b968b87c1dd4593b7a79381ad90b, type: 2}
+  weaponSwapped: {fileID: 11400000, guid: bb0c660bf21328f408872e80c184388c, type: 2}
+  anim: {fileID: -203655887218126122, guid: c291647bb92152e488c07787a45ebaf0, type: 3}
+  swapTime:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}

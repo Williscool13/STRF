@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dc2b44523493348927fd8c68be4e37, type: 3}
+  m_Name: IdleState
+  m_EditorClassIdentifier: 
+  gunIkTarget:
+    leftWristGunIk: 1
+    rightWristGunIk: 1
+    anchorPoint: 1
+    priority: 0
+  EnterActions: []
+  UpdateActions:
+  - {fileID: 11400000, guid: b41b577a349433e459065b6019f2bc70, type: 2}
+  - {fileID: 11400000, guid: 1b023f31b6660ad4b82a962628209431, type: 2}
+  ExitActions: []
+  Transitions:
+  - {fileID: 11400000, guid: 7fe51fe847b217740b902a413f421301, type: 2}
+  - {fileID: 11400000, guid: ebe55b7cffeb880449beb3b1d00d4422, type: 2}
+  - {fileID: 11400000, guid: c8d477ba31fa1c843ac4e5367cd68f9a, type: 2}

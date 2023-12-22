@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4892d279bca934380c7471a04aa321, type: 3}
+  m_Name: AimExit
+  m_EditorClassIdentifier: 
+  isAiming: {fileID: 11400000, guid: 0e9363aeb74a003489c76c941a1f143e, type: 2}

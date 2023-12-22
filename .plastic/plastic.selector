@@ -1,0 +1,3 @@
+rep "TeamStrafeFPS@TeamStrafe@cloud"
+  path "/"
+    smartbranch "/main"

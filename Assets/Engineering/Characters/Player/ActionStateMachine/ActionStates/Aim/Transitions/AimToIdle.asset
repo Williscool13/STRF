@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb64f4d279d2414195188a8156a8738, type: 3}
+  m_Name: AimToIdle
+  m_EditorClassIdentifier: 
+  decision: {fileID: 11400000, guid: a6eef966a39a7a5499be9ab173009817, type: 2}
+  trueState: {fileID: 11400000, guid: e9528f6fb1910474fadfc61f21288b12, type: 2}
+  falseState: {fileID: 11400000, guid: ce2610a911d29b9418a550c491c28693, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d01c301d05c62d4f823e9edc05fadd9, type: 3}
+  m_Name: WalkState
+  m_EditorClassIdentifier: 
+  EnterActions:
+  - {fileID: 11400000, guid: 27d4ea822f807cb4bb61fd0a9ecf5af0, type: 2}
+  UpdateActions:
+  - {fileID: 11400000, guid: 954df5c91112042499e1c0b04cc2ed41, type: 2}
+  - {fileID: 11400000, guid: 092534f0b9d25e744b6693c63c4665a4, type: 2}
+  ExitActions: []
+  Transitions:
+  - {fileID: 11400000, guid: b54003ce238eef140813d0a3e8c18003, type: 2}
+  - {fileID: 11400000, guid: c30261d031a799640ad887b20df01a46, type: 2}
